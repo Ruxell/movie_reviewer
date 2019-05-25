@@ -791,16 +791,16 @@ ul.most-movies li, ul.less-movies li {
 .item {
   width: calc((100% - 10px) / 4);
   flex: none;
-  margin-bottom: 0.5em;
+  margin-bottom: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.6em 0;
+  padding: 10px 0;
 }
 
 .item img {
-  width: 260px;
-  height: 450px;
+  width: calc((378% - 10px) / 4);
+  height: auto;
 }
 
 .efecto-grupal {
